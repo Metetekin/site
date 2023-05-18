@@ -9,24 +9,11 @@ class Country extends Model
 {
     use HasFactory;
 
-    /**
-     * The table associated with the model.
-     *
-     * @var string
-     */
-    protected $table = 'countries';
+    protected $fillable = [
+        'name','short_code','status'
+    ];
 
-    /**
-     * Indicates if the model should be timestamped.
-     *
-     * @var bool
-     */
-    public $timestamps = false;
-
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    protected $fillable = ['name', 'code', 'is_active'];
+    protected $searchable = [
+        'name',
+    ];
 }

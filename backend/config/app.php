@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'name' => 'Riverr',
+    'name' => env('APP_NAME', 'Laravel'),
 
     /*
     |--------------------------------------------------------------------------
@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'env' => 'production',
+    'env' => env('APP_ENV', 'production'),
 
     /*
     |--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'debug' => (bool) true,
+    'debug' => (bool) env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -54,9 +54,11 @@ return [
     |
     */
 
-    'url'       => '',
+    'url' => env('APP_URL', 'http://localhost'),
 
-    'asset_url' => "",
+    'asset_url' => env('ASSET_URL'),
+
+    'stripe_key' => env('STRIPE_KEY'),
 
     /*
     |--------------------------------------------------------------------------
@@ -121,7 +123,7 @@ return [
     |
     */
 
-    'key' => 'base64:eIa5BaNLql7juuigU6TBuuGZRsYpAI+JtP9lFlXQQfs=',
+    'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
 
@@ -181,18 +183,12 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class,
 
         /*
          * Package Service Providers...
          */
-        Intervention\Image\ImageServiceProvider::class,
-        Cartalyst\Stripe\Laravel\StripeServiceProvider::class,
-        Mailjet\LaravelMailjet\MailjetServiceProvider::class,
-        October\Rain\Config\ServiceProvider::class,
-        Unicodeveloper\Paystack\PaystackServiceProvider::class,
-        LoveyCom\CashFree\CashFreeServiceProvider::class,
-        Paytabscom\Laravel_paytabs\PaypageServiceProvider::class, 
-        HTMLMin\HTMLMin\HTMLMinServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
@@ -201,6 +197,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Intervention\Image\ImageServiceProvider::class,
+       
 
     ],
 
@@ -216,16 +214,8 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        'Image'    => Intervention\Image\Facades\Image::class,
-        'Stripe'   => Cartalyst\Stripe\Laravel\Facades\Stripe::class,
-        'Mailjet'  => Mailjet\LaravelMailjet\Facades\Mailjet::class,
-        'Paystack' => Unicodeveloper\Paystack\Facades\Paystack::class,
-        'HTMLMin' => HTMLMin\HTMLMin\Facades\HTMLMin::class
+        // 'ExampleClass' => App\Example\ExampleClass::class,
+        'Image' => Intervention\Image\Facades\Image::class,
     ])->toArray(),
-
-    /**
-     * Mix base url
-     */
-    'mix_url' => ''
 
 ];

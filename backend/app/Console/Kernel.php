@@ -15,9 +15,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('sitemap:generate')->everyMinute();
-        $schedule->command('orders:complete')->daily();
-        $schedule->command('sellers:unavailable')->daily();
+        $schedule->command('feature-expiry:cron')->daily();
+        // $schedule->command('inspire')->hourly();
     }
 
     /**

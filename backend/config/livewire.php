@@ -1,38 +1,5 @@
 <?php
 
-try {
-
-    // Check if localhost
-    if (is_localhost()) {
-        
-        // Set url
-        $asset_url = url('public');
-        $app_url   = url('/');
-
-    } else {
-
-        // Check if https enabled
-        if (request()->secure()) {
-
-            // Set url
-            $asset_url = secure_url('public');
-            $app_url   = secure_url('/');
-            
-        } else {
-            
-            // No https enabled
-            $asset_url = url('public');
-            $app_url   = url('/');
-
-        }
-
-    }
-    
-} catch (\Throwable $th) {
-    $asset_url = null;
-    $app_url   = null;
-}
-
 return [
 
     /*
@@ -87,7 +54,7 @@ return [
     |
     */
 
-    'asset_url' => $asset_url,
+    'asset_url' => null,
 
     /*
     |--------------------------------------------------------------------------
@@ -101,7 +68,7 @@ return [
     |
     */
 
-    'app_url' => $app_url,
+    'app_url' => null,
 
     /*
     |--------------------------------------------------------------------------
@@ -129,16 +96,17 @@ return [
     */
 
     'temporary_file_upload' => [
-        'disk'          => 'local',                                                            // Example: 'local', 's3'              Default: 'default'
-        'rules'         => ['required', 'file', 'max:122880000000'],                        // Example: ['file', 'mimes:png,jpg']  Default: ['required', 'file', 'max:12288'] (12MB)
-        'directory'     => 'tmp',                                                            // Example: 'tmp'                      Default  'livewire-tmp'
-        'middleware'    => 'throttle:5,1',                                                            // Example: 'throttle:5,1'             Default: 'throttle:60,1'
+        'disk' => null,        // Example: 'local', 's3'              Default: 'default'
+        'rules' => 'mimes:pdf,doc,docx,xls,xlsx,ppt,pptx,csv,jpg,jpeg,gif,png,mp4,mp3,3gp,flv,ogg,wmv,avi,zip,rar|max:102400',       // Example: ['file', 'mimes:png,jpg']  Default: ['required', 'file', 'max:12288'] (12MB)
+        'directory' => null,   // Example: 'tmp'                      Default  'livewire-tmp'
+        'middleware' => null,  // Example: 'throttle:5,1'             Default: 'throttle:60,1'
         'preview_mimes' => [   // Supported file types for temporary pre-signed file URLs.
             'png', 'gif', 'bmp', 'svg', 'wav', 'mp4',
             'mov', 'avi', 'wmv', 'mp3', 'm4a',
             'jpg', 'jpeg', 'mpga', 'webp', 'wma',
+            'pdf', 'pptx', 'docx', 'doc', 'ppt', 'csv'
         ],
-        'max_upload_time' => 3, // Max duration (in minutes) before an upload gets invalidated.
+        'max_upload_time' => 5, // Max duration (in minutes) before an upload gets invalidated.
     ],
 
     /*

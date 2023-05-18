@@ -2,24 +2,43 @@
 
 namespace App\Models;
 
+use App\Models\Profile;
+use App\Models\EmailTemplate;
+use Laravel\Cashier\Billable;
+use Laravel\Sanctum\HasApiTokens;
+use App\Models\UserAccountSetting;
+use App\Models\UserIdentification;
+use Spatie\Permission\Models\Role;
+use Spatie\Permission\Traits\HasRoles;
+use App\Notifications\EmailNotification;
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
-use Illuminate\Support\Facades\Cache;
-use Laravel\Sanctum\HasApiTokens;
 
-class User extends Authenticatable
+class User extends Authenticatable implements MustVerifyEmail
 {
-    use HasApiTokens, HasFactory, Notifiable, SoftDeletes;
+    use HasApiTokens, SoftDeletes, HasFactory, Billable, Notifiable, HasRoles;
+
+    public static function boot() {
+        parent::boot();
+
+        static::deleting(function($user) {
+            $user->profile()->delete();
+        });
+    }
 
     /**
      * The attributes that are mass assignable.
      *
      * @var array<int, string>
      */
-    protected $guarded = [];
+    protected $fillable = [
+        'email',
+        'password',
+        'email_verified_at',
+    ];
 
     /**
      * The attributes that should be hidden for serialization.
@@ -28,7 +47,7 @@ class User extends Authenticatable
      */
     protected $hidden = [
         'password',
-        'remember_token',
+        'token',
     ];
 
     /**
@@ -40,174 +59,61 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-
     /**
-     * Get user verification
-     *
-     * @return object
-     */
-    public function verification()
-    {
-        return $this->hasOne(VerificationCenter::class, 'user_id');
-    }
-
-
-    /**
-     * Get user avatar
-     *
-     * @return object
-     */
-    public function avatar()
-    {
-        return $this->belongsTo(FileManager::class, 'avatar_id');
+        * Get the user that owns the profile.
+    */
+    public function profile( ){  
+        
+        return $this->hasMany(Profile::class);
     }
 
     /**
-     * Get user billing info
-     *
-     * @return object
-     */
-    public function billing()
-    {
-        return $this->hasOne(UserBilling::class, 'user_id');
+        * Get the user that owns the user account settings.
+    */
+    public function userAccountSetting(){
+        return $this->hasOne(UserAccountSetting::class);
     }
 
     /**
-     * Get user level
-     *
-     * @return object
-     */
-    public function level()
-    {
-        return $this->belongsTo(Level::class, 'level_id');
+        * Get the user that owns the User Identification.
+    */
+    public function userIdentity(){
+        return $this->hasOne(UserIdentification::class);
     }
-
     /**
-     * Get user country
+     * Send the password reset notification.
      *
-     * @return object
+     * @param  string  $token
+     * @return void
      */
-    public function country()
+    public function sendPasswordResetNotification($token)
     {
-        return $this->belongsTo(Country::class, 'country_id');
-    }
 
-    /**
-     * Get user sales
-     *
-     * @return object
-     */
-    public function sales()
-    {
-        return $this->hasMany(OrderItem::class, 'owner_id');
-    }
+       $userRoles = $this->getRoleNames()->toArray();
+    
+        
 
-    /**
-     * Get user skills
-     *
-     * @return object
-     */
-    public function skills()
-    {
-        return $this->hasMany(UserSkill::class, 'user_id');
-    }
+        $email_template = EmailTemplate::select('content','role')
+        ->where(['type' => 'reset_password' , 'status' => 'active', 'role' => $userRoles[0]])->latest()->first();
+    
+        if(!empty($email_template)){
+            $template_data =  unserialize($email_template->content);
+            $params = array();
+            $params['template_type']    = 'reset_password';
+            $params['email_params'] = array(
+                'user_name'             => '',
+                'account_email'         => $this->email,
+                'token'                 => $token,
+                'email_subject'         => !empty($template_data['subject']) ?   $template_data['subject'] : '',     
+                'email_greeting'        => !empty($template_data['greeting']) ?  $template_data['greeting'] : '',     
+                'email_content'         => !empty($template_data['content']) ?   $template_data['content'] : '',     
+            );
 
-    /**
-     * Get user linked account
-     *
-     * @return object
-     */
-    public function accounts()
-    {
-        return $this->hasOne(UserLinkedAccount::class, 'user_id');
-    }
-
-    /**
-     * Get user projects
-     *
-     * @return object
-     */
-    public function projects()
-    {
-        return $this->hasMany(UserPortfolio::class, 'user_id');
-    }
-
-    /**
-     * Get user languages
-     *
-     * @return object
-     */
-    public function languages()
-    {
-        return $this->hasMany(UserLanguage::class, 'user_id');
-    }
-
-    /**
-     * Get user availability
-     *
-     * @return object
-     */
-    public function availability()
-    {
-        return $this->hasOne(UserAvailability::class, 'user_id');
-    }
-
-    /**
-     * Check if user online
-     *
-     * @return boolean
-     */
-    public function isOnline(){
-        return Cache::has('user-is-online-'. $this->id);
-    }
-
-    /**
-     * Get seller reviews
-     *
-     * @return object
-     */
-    public function reviews()
-    {
-        return $this->hasMany(Review::class, 'seller_id');
-    }
-
-    /**
-     * Get seller rating
-     *
-     * @return integer
-     */
-    public function rating()
-    {
-        try {
-            
-            // Get total rating
-            $total_rating  = $this->reviews()->sum('rating');
-
-            // Get total reviews
-            $total_reviews = $this->reviews()->count();
-
-            // Get rating
-            $rating_value = $total_reviews === 0 ? 0 : $total_rating / $total_reviews;
-
-            // Check if decimal
-            if (is_numeric( $rating_value ) && floor( $rating_value ) != $rating_value) {
-                return number_format($rating_value, 1);
-            } else {
-                return $rating_value;
+            try {
+                $this->notify(new EmailNotification($params));
+            } catch (\Exception $e) {
+                $e->getMessage();
             }
-
-        } catch (\Throwable $th) {
-            return 0;
         }
-    }
-
-    /**
-     * Get notifications
-     *
-     * @return object
-     */
-    public function notifications()
-    {
-        return $this->hasMany(Notification::class, 'user_id');
     }
 }

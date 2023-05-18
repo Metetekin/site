@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => 'file',
+    'default' => env('CACHE_DRIVER', 'file'),
 
     /*
     |--------------------------------------------------------------------------
@@ -105,6 +105,6 @@ return [
     |
     */
 
-    'prefix' => 'ypdIqwYDKYckPCj_cache_',
+    'prefix' => env('CACHE_PREFIX', Str::slug(env('APP_NAME', 'laravel'), '_').'_cache_'),
 
 ];

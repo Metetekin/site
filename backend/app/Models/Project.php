@@ -2,118 +2,164 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\Search;
+use Illuminate\Support\Str;
+use App\Models\Taxonomies\Skill;
+use App\Models\Proposal\Proposal;
+use App\Models\Taxonomies\Language;
+use App\Models\Taxonomies\ExpertLevel;
+use App\Models\Taxonomies\PaymentMode;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Taxonomies\ProjectCategory;
+use App\Models\Taxonomies\ProjectDuration;
+use App\Models\Taxonomies\ProjectLocation;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Project extends Model
 {
-    use HasFactory;
+    use Search, SoftDeletes, HasFactory;
 
-    /**
-     * The table associated with the model.
-     *
-     * @var string
-     */
-    protected $table = 'projects';
-
+    protected $hidden = ['pivot'];
+    
     /**
      * The attributes that are mass assignable.
      *
-     * @var array
+     * @var array<int, string>
      */
     protected $fillable = [
-        'uid',
-        'pid',
-        'user_id',
-        'title',
+        'profile_id',
+        'author_id',
+        'project_category',
+        'project_title',
         'slug',
-        'description',
-        'category_id',
-        'budget_min',
-        'budget_max',
-        'budget_type',
-        'duration',
+        'project_type',
+        'project_payout_type',
+        'project_country',
+        'country_zipcode',
+        'address',
+        'attachments',
+        'project_description',
+        'project_payment_mode',
+        'project_max_hours',
+        'project_min_price',
+        'project_max_price',
+        'project_duration',
+        'project_hiring_seller',
+        'project_expert_level',
+        'project_location',
         'status',
-        'rejection_reason',
-        'is_featured',
-        'is_urgent',
-        'is_highlighted',
-        'is_alert',
-        'expiry_date_featured',
-        'expiry_date_urgent',
-        'expiry_date_highlight',
-        'counter_views',
-        'counter_impressions',
-        'counter_bids',
-        'expiry_date'
+    ];
+
+    protected $searchable = [
+        'project_title',
+        'project_description',
     ];
 
     /**
-     * Get project skills
+     * Set slug before saving in DB
      *
-     * @return object
+     * @param string $value value
+     *
+     * @access public
+     *
+     * @return string
      */
-    public function skills()
+    public function setSlugAttribute($value)
     {
-        return $this->hasMany(ProjectRequiredSkill::class, 'project_id');
+        if (!empty($value)) {
+            $temp_slug = Str::slug($value, '-');
+            if (!Project::all()->where('slug', $temp_slug)->isEmpty()) {
+                $i = 1;
+                $new_slug = $temp_slug . '-' . $i;
+                while (!Project::all()->where('slug', $new_slug)->isEmpty()) {
+                    $i++;
+                    $new_slug = $temp_slug . '-' . $i;
+                }
+                $temp_slug = $new_slug;
+            }
+            $this->attributes['slug'] = $temp_slug;
+        }
     }
 
+
     /**
-     * Get category
-     *
-     * @return object
-     */
+    * Get the category of the project.
+    */
     public function category()
     {
-        return $this->belongsTo(ProjectCategory::class, 'category_id');
+        return $this->hasOne(ProjectCategory::class, 'id', 'project_category');
     }
 
     /**
-     * Get project bids
-     *
-     * @return object
-     */
-    public function bids()
+    * Get the skills of the project.
+    */
+    public function skills()
     {
-        return $this->hasMany(ProjectBid::class, 'project_id');
+        return $this->morphToMany(Skill::class, 'skillable');
     }
 
     /**
-     * Get project's milestones
-     */
-    public function milestones()
+        * Get the languages of the project.
+    */
+    public function languages()
     {
-        return $this->hasMany(ProjectMilestone::class, 'project_id');
+        return $this->morphToMany(Language::class, 'languageable');
     }
 
     /**
-     * Get project's client
-     *
-     * @return object
-     */
-    public function client()
+        * Get the experience level of the project.
+    */
+    public function expertiseLevel()
     {
-        return $this->belongsTo(User::class, 'user_id');
-    }
-
-
-    /**
-     * Get awarded bid for this project
-     *
-     * @return object
-     */
-    public function awarded_bid()
-    {
-        return $this->hasOne(ProjectBid::class, 'project_id')->where('is_awarded', true);
+        return $this->hasOne(ExpertLevel::class, 'id', 'project_expert_level');
     }
 
     /**
-     * Get shared filesa
-     *
-     * @return object
-     */
-    public function shared_files()
+        * Get the  location of the project.
+    */
+    public function projectLocation()
     {
-        return $this->hasMany(ProjectSharedFile::class, 'project_id');
+        return $this->hasOne(ProjectLocation::class,  'id', 'project_location');
+    }
+
+    /**
+        * Get the  duration of the project.
+    */
+    public function projectDuration()
+    {
+        return $this->hasOne(ProjectDuration::class, 'id', 'project_duration');
+    }
+
+    /**
+        * Get the  payment mode of the project.
+    */
+    public function projectPaymentMode()
+    {
+        return $this->hasOne(PaymentMode::class, 'id', 'project_payment_mode');
+    }
+
+    /**
+        * Get the  author of the project.
+    */
+    public function projectAuthor()
+    {
+        return $this->belongsTo(Profile::class, 'author_id', 'id');
+    }
+
+    /**
+        * Get the  visits of the project.
+    */
+    public function projectVisits()
+    {
+        return $this->hasMany(UserVisitCount::class, 'corresponding_id', 'id')->where('visit_type','project');
+    }
+
+    /**
+        * Get all proposals of the project
+    */
+    public function proposals()
+    {
+        return $this->hasMany(Proposal::class);
     }
 }

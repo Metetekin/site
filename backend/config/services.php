@@ -31,43 +31,4 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
-    'stripe' => [
-        'secret' => 'sk_test_LRFbNEFtDhXVrXgFJlByHw7U',
-    ],
-
-    /**
-     * Social media login
-     */
-    'github' => [
-        'client_id'     => '',
-        'client_secret' => '',
-        'redirect'      => '',
-    ],
-    'linkedin' => [    
-        'client_id'     => '',
-        'client_secret' => '',
-        'redirect'      => ''
-    ],
-    'google' => [    
-        'client_id'     => '',
-        'client_secret' => '',
-        'redirect'      => ''
-    ],
-    'facebook' => [    
-        'client_id'     => '',
-        'client_secret' => '',
-        'redirect'      => ''
-    ],
-    'twitter' => [    
-        'client_id'     => '',
-        'client_secret' => '',
-        'redirect'      => ''
-    ],
-
-    // Email marketing
-    'mailjet' => [
-        'key'    => "",
-        'secret' => "",
-    ]
-
 ];

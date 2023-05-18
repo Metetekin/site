@@ -6,6 +6,7 @@ use App\Providers\RouteServiceProvider;
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Models\User;
 
 class RedirectIfAuthenticated
 {
@@ -23,15 +24,9 @@ class RedirectIfAuthenticated
 
         foreach ($guards as $guard) {
             if (Auth::guard($guard)->check()) {
-
-                // Check if admin
-                if ($guard === 'admin') {
-                    
-                    return redirect(config('global.dashboard_prefix'));
-
-                }
                 
-                return redirect(RouteServiceProvider::HOME);
+                $url = getLoginRedirect();
+                return redirect()->intended($url);
             }
         }
 

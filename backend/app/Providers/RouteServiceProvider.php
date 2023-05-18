@@ -10,17 +10,28 @@ use Illuminate\Support\Facades\Route;
 
 class RouteServiceProvider extends ServiceProvider
 {
+
     /**
      * The path to the "home" route for your application.
      *
-     * Typically, users are redirected here after authentication.
+     * This is used by Laravel authentication to redirect users after login.
      *
      * @var string
      */
-    public const HOME = '/';
+    public const USER_LOGIN = '/dashboard';
 
     /**
-     * Define your route model bindings, pattern filters, and other route configuration.
+     * The path to the "home" route for your application.
+     *
+     * This is used by Laravel authentication to redirect users after login.
+     *
+     * @var string
+     */
+
+    public const ADMIN_LOGIN = '/admin/projects';
+
+    /**
+     * Define your route model bindings, pattern filters, etc.
      *
      * @return void
      */
@@ -35,19 +46,6 @@ class RouteServiceProvider extends ServiceProvider
 
             Route::middleware('web')
                 ->group(base_path('routes/web.php'));
-
-            Route::prefix(config('global.dashboard_prefix'))
-                ->namespace('App\Http\Livewire\Admin')
-                ->group(base_path('routes/admin.php'));
-
-            if (!isInstalled()) {
-                
-                Route::prefix('install')
-                    ->middleware('web')
-                    ->namespace('App\Http\Livewire\Installation')
-                    ->group(base_path('routes/install.php'));
-
-            }
         });
     }
 
