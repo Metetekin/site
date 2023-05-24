@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <meta name="author" content="" />
+    <title>Anasayfa</title>
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="assets/plugins/dataTable/datatables.min.css">
+    <link type="text/css" rel="stylesheet" href="assets/plugins/dataTable/extensions/dataTables.jqueryui.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="page-container">
+        <!-- Page Sidebar Start -->
+        <div class="page-sidebar">
+            <div class="logo">
+                <a class="logo-img" href="index.html">
+                    <img class="desktop-logo" src="assets/images/other/ph-logo.png" alt="">
+                    <img class="small-logo" src="assets/images/small-logo.png" alt="">
+                </a>
+                <a id="sidebar-toggle-button-close"><i class="wd-20" data-feather="x"></i> </a>
+            </div>
+            <!-- Sidebar Menu Start -->
+            <div class="page-sidebar-inner">
+                <div class="page-sidebar-menu">
+                    <ul class="accordion-menu cs-leftmenu">
+                        <li>
+                            <a href=""><i class="fa-solid fa-house"></i>
+                                <span>Anasayfa</span></a>
+
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-regular fa-envelope"></i>
+                                <span>Muhasebe</span></a>
+                        </li>
+                        <li>
+                            <a href=""><i data-feather="grid"></i>
+                                <span>Havuz</span></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-regular fa-rectangle-list"></i>
+                                <span>İlanlar</span></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-solid fa-cube"></i>
+                                <span>Paketler</span></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-solid fa-link"></i>
+                                <span>Bağlantılar</span></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="fa-regular fa-user"></i>
+                                <span>Profil</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!--/ Sidebar Menu End -->
+            <!-- Sidebar Footer Start -->
+            <div class="sidebar-footer">
+                <ul class="accordion-menu cs-bottom-menu-list">
+                    <li>
+                        <a href=""><i class="fa-regular fa-circle-question mr-1"></i>
+                            <span>S.S.S.</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-gear mr-1"></i>
+                            <span>Ayarlar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-solid fa-arrow-right-from-bracket mr-1"
+                                style="transform: rotate(180deg);"></i>
+                            <span>Çıkış</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--/ Sidebar Footer End -->
+        </div>
+        <!--/ Page Sidebar End -->
+        <!-- Page Content Start -->
+        <div class="page-content">
+            <!-- Page Header Start -->
+            <div class="page-header">
+                <div class="search-form">
+                    <form action="#" method="GET">
+                        <div class="input-group">
+                            <input class="form-control search-input typeahead" name="search"
+                                placeholder="Type something..." type="text" />
+                            <span class="input-group-btn"><span id="close-search"><i data-feather="x"
+                                        class="wd-16"></i></span></span>
+                        </div>
+                    </form>
+                </div>
+                <nav class="navbar navbar-default">
+                    <!--================================-->
+                    <!-- Brand and Logo Start -->
+                    <!--================================-->
+                    <div class="navbar-header">
+                        <div class="cs-searchbar">
+                            <i class="ti-search"></i>
+                            <input type="search" placeholder="Type something for search..." id="example-search-input" />
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!--/ Page Header End -->
+            <!-- Page Inner Start -->
+            <div class="page-inner draw-project">
+                <!-- Wrapper -->
+                <div class="wrapper px-4 py-5 tx-open-sans">
+                    <div class="row">
+
+                        <!-- LEFT SIDE START -->
+                        <div class="col-7">
+
+                            <div class="row">
+                                <!-- breadcrump start -->
+                                <div class="col-8 p-0">
+                                    <nav aria-label="breadcrumb">
+                                        <ol class="breadcrumb p-0">
+                                            <li class="breadcrumb-item"><a href="#">İlanlar</a></li>
+                                            <li class="breadcrumb-item active">Mimari</li>
+                                        </ol>
+                                    </nav>
+                                </div>
+                                <div class="col-4 p-0 d-flex justify-content-end">
+                                    <i class="fa-regular fa-heart" style="color: #757D8A;"></i>
+                                </div>
+                                <!-- breadcrump end -->
+                            </div>
+                        
+                            <div class="row">
+                                <div class="col-12 p-0">
+                                    <h5 style="font-weight: 700;" class="orange-text">Mimari Proje Çizimleri</h5>
+                                    <div class="mt-3">
+                                        <img src="assets/images/drawproject.png" alt="" width="100%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row mt-3">
+                                <div class="col p-0 portfolio-title">Portfolyo</div>
+                                <div class="col d-flex justify-content-end p-0 orange-text portfolio-description">Portfolyosunu Görüntüle</div>
+                            </div>
+
+                            <!-- Portfolio images start -->
+                            <div class="row mt-3">
+                                <div class="col-4 p-0 d-flex justify-content-start">
+                                    <img src="assets/images/drawproject2.png" width="200px" alt="">
+                                </div>
+                            </div>
+
+                            <div>
+                                <p class="info"><b>İş İlanı Hakkında</b></p>
+                                <p class="info-detail">Ben 50 mt2 ve 200 mt2 yerleri 350 TL'ye çizebilirim</p>
+                            </div>
+                            <!-- portfolio images end -->
+                        </div>
+                        <!-- LEFT SIDE END -->
+                        
+                        <!-- RIGHT SIDE START -->
+                        <div class="col-4">
+                            <div class="px-2">
+                                <div class="col-12 d-flex justify-content-center">
+                                    <div class="cs-setting-l-top">
+                                        <div class="cs-setting-image">
+                                            <img src="assets/images/other/userpicbig.png">
+                                        </div>
+                                        <div class="cs-textbox">
+                                            <h5 class="cs-set-name">İbrahim Göktuğ</h5>
+                                            <p class="cs-set-username">@ibrahimgoktug</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-6 d-flex justify-content-end p-1 py-0">
+                                        <a href="" class="cs-sendmessage-btn">Mesaj Gönder</a>
+                                    </div>
+                                    <div class="col-6 p-1 py-0">
+                                        <button class="cs-baglantikur-btn"><i class="fa-solid fa-user-plus"></i> Bağlantı Kur</button>
+                                    </div>
+                                </div>
+                                
+                                <!-- information start -->
+                                <div class="row info mt-3">
+                                    <div class="col-8">
+                                        <i class="fa-regular fa-eye" style="color: #757D8A;"></i> Son Görülme
+                                    </div>
+                                    <div class="col-4 d-flex justify-content-end online">
+                                        Çevrimiçi
+                                    </div>
+                                    <div class="col-4 d-none">
+                                        Çevrimidışı
+                                    </div>
+                                </div>
+                                
+                                <div class="row info mt-3">
+                                    <div class="col-8">
+                                        <i class="fa-regular fa-comment-dots" style="color: #757D8A;"></i> Son Görülme
+                                    </div>
+                                    <div class="col-4 d-flex justify-content-end">
+                                        4 dk.
+                                    </div>
+                                </div>
+                                
+                                <div class="row info mt-3">
+                                    <div class="col-8">
+                                        Üyelik Tarihi
+                                    </div>
+                                    <div class="col-4 d-flex justify-content-end">
+                                        16.03.2023
+                                    </div>
+                                </div>
+                                <!-- information end -->
+                            </div>
+
+                            <div class="mt-5">
+                                <p class="info-title">Temel Paket</p>
+                                <p class="info-content">1 adet Post ve Story .jpg veya .png formatında teslim Stock görsel kullanımı</p>
+                            </div>
+
+                            <div class="mt-5">
+                                <p class="info-title">Uzmanı Olduğu Alanlar/Araçlar</p>
+                                <div class="row">
+                                    <div class="col-4 p-0 info-detail">
+                                        <i class="fa-regular fa-clock"></i> 2 günde Teslim
+                                    </div>
+                                    <div class="col-4 p-0 info-detail">
+                                        <img src="assets/images/Union.png" height="15px"></img> 1 Revizyon Hakkı
+                                    </div>
+                                    <div class="col-4 p-0 info-detail pl-2">
+                                        <i class="fa-solid fa-circle-question"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="mt-3" style="opacity: 0.4;">
+
+                            <div class="mt-3">
+                                <div class="row">
+                                    <i class="fa-solid fa-check" style="font-size:20px !important; color: #6cce6a;"></i> <span class="info ml-2">3 platform Sayısı</span>
+                                </div>
+                                <div class="row mt-1">
+                                    <i class="fa-solid fa-check" style="font-size:20px !important; color: #6cce6a;"></i> <span class="info ml-2">Kaynak Dosya</span>
+                                </div>
+                                <div class="row mt-1">
+                                    <i class="fa-solid fa-check" style="font-size:20px !important; color: #6cce6a;"></i> <span class="info ml-2">1 Tasarım Sayısı</span>
+                                </div>
+                            </div>
+                            
+                            <div class="row mt-3">
+                                <div class="col-12 px-4">
+                                    <button class="order-complete-btn mt-3"><b>Devam Et (80 TL)</b></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- RIGHT SIDE START -->
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <script src="assets/plugins/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/plugins/popper/popper.js"></script>
+    <script src="assets/plugins/feather/feather.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/plugins/typeahead/typeahead.js"></script>
+    <script src="assets/plugins/typeahead/typeahead-active.js"></script>
+    <script src="assets/plugins/pace/pace.min.js"></script>
+    <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="assets/plugins/highlight/highlight.min.js"></script>
+    <!-- dataTables Script -->
+    <script src="assets/plugins/dataTable/datatables.min.js"></script>
+    <script src="assets/plugins/dataTable/responsive/dataTables.responsive.js"></script>
+    <script src="assets/plugins/dataTable/extensions/dataTables.jqueryui.min.js"></script>
+    <!-- Required Script -->
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/avesta.js"></script>
+    <script src="assets/js/avesta-customizer.js"></script>
+    <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+            $('#basicDataTable').DataTable();
+        });
+        $('#basicDataTable').dataTable({
+            "language": {
+                "search": "",
+                "lengthMenu": "Sayfada _MENU_ Kayıt Göster",
+            },
+            "buttons": [
+                'copy', 'excel', 'pdf'
+            ]
+        });
+        $('.dataTables_filter input').attr("placeholder", "Bağlantı Ara");
+        $('#datepicker1').datepicker({
+            uiLibrary: 'bootstrap4'
+        });
+        $('#datepicker2').datepicker({
+            uiLibrary: 'bootstrap4'
+        });
+        $('.modal ').insertAfter($('body'));
+    </script>
+</body>
+
+</html>
