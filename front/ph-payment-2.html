@@ -341,200 +341,78 @@
             <!--/ Page Header End -->
             <!-- Page Inner Start -->
             <div class="page-inner">
-                <!-- Wrapper -->
-                <div class="wrapper">
-                    <!-- Static Tables Start -->
-                    <div class="row clearfix">
-                        <div class="col-12">
-                            <div class="card mg-b-30 cs-main-titlebox">
-                                <div class="card-body">
-                                    <p class="lead mb-0 cs-main-title">
-                                        Kasam
-                                    </p>
+                <div class="cs-payment2-main">
+                    <div class="cs-payment-comleted-bottom m-0">
+                        <div class="cs-title-top">Siparişi Tamamla</div>
+                        <div class="cs-comp-bottom-mid">
+                            <div class="cs-comp-1">
+                                <img src="assets/images/other/completedpayment.png">
+                                <div class="cs-textbox">
+                                    <h6 class="cs-title1">Şantiye Şefliği yaparım</h6>
+                                    <p class="cs-title2">Kendi şehrinde, Şantiye şefliği</p>
+                                    <span class="cs-title1">5000 TL</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="cs-till-main">
-                        <div class="cs-till-left">
-                            <a href="" class="cs-till-left-content active">
-                                <div class="cs-content1">
-                                    <h6>Hesabım</h6>
-                                    <p>10.000 TL</p>
+                    <div class="cs-comp-buttons2">
+                        <h6>Özet</h6>
+                        <div class="cs-textbox"><h6>Toplam Fiyat</h6><span>80 TL</span></div>
+                        <div class="cs-textbox"><h6>Toplam Teslim Süresi</h6><span>2 gün</span></div>
+                        <a href="" class="cs-button-completed" data-toggle="modal" data-target="#siparis-tamamla-modal">Siparişi Tamamla</a>
+                                                 
+                          <!-- Modal -->
+                          <div class="modal fade" id="siparis-tamamla-modal" tabindex="-1" role="dialog" aria-labelledby="siparis-tamamla-modalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content cs-siparistamamlamod-content">
+                                
+                                <div class="modal-body cs-siparistamamlamod-body">
+                                  <div class="cs-siparistamamla-inputarea">
+                                    <span class="cs-siparistamamla-name">Kartın Üzerindeki İsim</span>
+                                    <input type="text">
+                                  </div>
+                                  <div class="cs-siparistamamla-inputarea">
+                                    <span class="cs-siparistamamla-name">Kart Numarası</span>
+                                    <input type="text">
+                                  </div>
+                                  <div class="siparistamamla-duo">
+                                    <div class="cs-siparistamamla-inputarea">
+                                        <span class="cs-siparistamamla-name">Ay</span>
+                                        <select>
+                                            <option>Seçiniz</option>
+                                            <option>Ocak</option>
+                                            <option>Şubat</option>
+                                            <option>Mart</option>
+                                        </select>
+                                      </div>
+                                      <div class="cs-siparistamamla-inputarea">
+                                        <span class="cs-siparistamamla-name">Yıl</span>
+                                        <select>
+                                            <option>Seçiniz</option>
+                                            <option>2020</option>
+                                            <option>2021</option>
+                                            <option>2022</option>
+                                            <option>2023</option>
+                                            <option>2024</option>
+                                        </select>
+                                      </div>
+                                      <div></div>
+                                      <div class="cs-siparistamamla-inputarea">
+                                        <span class="cs-siparistamamla-name">CVV</span>
+                                        <input type="text">
+                                      </div>
+                                  </div>
+                                  <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="siparis-tamamla-check1">
+                                    <label class="form-check-label" for="siparis-tamamla-check1">Sonraki siparişlerim için hatırla</label>
+                                  </div>
+                                  <button class="siparis-tamamla-btn">Siparişi Tamamla</button>
                                 </div>
-                                <span><i class="fa-solid fa-wallet" style="color: #3AC348;"></i></span>
-                            </a>
-                            <a href="" class="cs-till-left-content">
-                                <div class="cs-content1">
-                                    <h6>Aktif İlanlarım</h6>
-                                    <p>1</p>
-                                </div>
-                                <span><i class="fa-regular fa-file-lines"
-                                        style="color: #4E73F8;font-size: 16px;"></i></span>
-                            </a>
-                            <a href="" class="cs-till-left-content">
-                                <div class="cs-content1">
-                                    <h6>Başarılı Satışlarım</h6>
-                                    <p>1</p>
-                                </div>
-                                <span><i class="fa-regular fa-square-check"
-                                        style="color: #3AC348;font-size: 16px;"></i></span>
-                            </a>
-                            <a href="" class="cs-till-left-content">
-                                <div class="cs-content1">
-                                    <h6>Değerlendirmelerim</h6>
-                                    <p>4.5/5</p>
-                                </div>
-                                <span><i class="fa-solid fa-star" style="color:#F39200"></i></span>
-                            </a>
-                            <a href="" class="cs-till-button1" data-toggle="modal" data-target="#paraCekModal">Para
-                                Çek</a>
-                            <!-- Modal -->
-                            <div class="modal fade" id="paraCekModal" tabindex="-1" role="dialog"
-                                aria-labelledby="paraCekModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content cs-paracek-modal-content">
-                                        <div class="modal-body cs-paracek-modal">
-                                            <img class="cs-paracekmodal-img" src="assets/images/other/mark1.png">
-                                            <h2 class="cs-paracekmodal-head">Heading</h2>
-                                            <p class="cs-paracekmodal-desc">Torem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-                                                libero et velit interdum, ac aliquet odio mattis. Class aptent taciti
-                                                sociosqu.</p>
-                                            <button class="cs-paracekmodal-btn">Text</button>
-                                        </div>
-                                    </div>
-                                </div>
+                               
+                              </div>
                             </div>
-                        </div>
-                        <div class="cs-till-right">
-                            <ul class="cs-till-right-main">
-                                <li class="cs-till-right-content">
-                                    <div class="cs-till-right-content-1">
-                                        <span><i class="fa-solid fa-arrow-up-right-from-square"
-                                                style="color: #3AC348;transform: rotate(180deg);font-size: 20px;"></i></span>
-                                        <div class="cs-till-right-content2">
-                                            <h5>Deposit</h5>
-                                            <span>13 Apr, 2022 at 3:30 PM</span>
-                                        </div>
-                                    </div>
-                                    <p class="cs-price">$20,129</p>
-                                </li>
-                                <li class="cs-till-right-content">
-                                    <div class="cs-till-right-content-1">
-                                        <span><i class="fa-solid fa-arrow-up-right-from-square"
-                                                style="color: #FF1F00;transform: rotate(270deg);font-size: 20px;"></i></span>
-                                        <div class="cs-till-right-content2">
-                                            <h5>Cash Withdrawal</h5>
-                                            <span>13 Apr, 2022 at 3:30 PM</span>
-                                        </div>
-                                    </div>
-                                    <p class="cs-price">$20,129</p>
-                                </li>
-                                <li class="cs-till-right-content">
-                                    <div class="cs-till-right-content-1">
-                                        <span><i class="fa-solid fa-arrow-up-right-from-square"
-                                                style="color: #3AC348;transform: rotate(180deg);font-size: 20px;"></i></span>
-                                        <div class="cs-till-right-content2">
-                                            <h5>Deposit</h5>
-                                            <span>13 Apr, 2022 at 3:30 PM</span>
-                                        </div>
-                                    </div>
-                                    <p class="cs-price">$20,129</p>
-                                </li>
-                                <li class="cs-till-right-content">
-                                    <div class="cs-till-right-content-1">
-                                        <span><i class="fa-solid fa-arrow-up-right-from-square"
-                                                style="color: #FF1F00;transform: rotate(270deg);font-size: 20px;"></i></span>
-                                        <div class="cs-till-right-content2">
-                                            <h5>Cash Withdrawal</h5>
-                                            <span>13 Apr, 2022 at 3:30 PM</span>
-                                        </div>
-                                    </div>
-                                    <p class="cs-price">$20,129</p>
-                                </li>
-                                <li class="cs-till-right-content">
-                                    <div class="cs-till-right-content-1">
-                                        <span><i class="fa-solid fa-arrow-up-right-from-square"
-                                                style="color: #3AC348;transform: rotate(180deg);font-size: 20px;"></i></span>
-                                        <div class="cs-till-right-content2">
-                                            <h5>Deposit</h5>
-                                            <span>13 Apr, 2022 at 3:30 PM</span>
-                                        </div>
-                                    </div>
-                                    <p class="cs-price">$20,129</p>
-                                </li>
-                                <li class="cs-till-right-content">
-                                    <div class="cs-till-right-content-1">
-                                        <span><i class="fa-solid fa-arrow-up-right-from-square"
-                                                style="color: #FF1F00;transform: rotate(270deg);font-size: 20px;"></i></span>
-                                        <div class="cs-till-right-content2">
-                                            <h5>Cash Withdrawal</h5>
-                                            <span>13 Apr, 2022 at 3:30 PM</span>
-                                        </div>
-                                    </div>
-                                    <p class="cs-price">$20,129</p>
-                                </li>
-                                <li class="cs-till-right-content">
-                                    <div class="cs-till-right-content-1">
-                                        <span><i class="fa-solid fa-arrow-up-right-from-square"
-                                                style="color: #3AC348;transform: rotate(180deg);font-size: 20px;"></i></span>
-                                        <div class="cs-till-right-content2">
-                                            <h5>Deposit</h5>
-                                            <span>13 Apr, 2022 at 3:30 PM</span>
-                                        </div>
-                                    </div>
-                                    <p class="cs-price">$20,129</p>
-                                </li>
-                                <li class="cs-till-right-content">
-                                    <div class="cs-till-right-content-1">
-                                        <span><i class="fa-solid fa-arrow-up-right-from-square"
-                                                style="color: #FF1F00;transform: rotate(270deg);font-size: 20px;"></i></span>
-                                        <div class="cs-till-right-content2">
-                                            <h5>Cash Withdrawal</h5>
-                                            <span>13 Apr, 2022 at 3:30 PM</span>
-                                        </div>
-                                    </div>
-                                    <p class="cs-price">$20,129</p>
-                                </li>
-                                <li class="cs-till-right-content">
-                                    <div class="cs-till-right-content-1">
-                                        <span><i class="fa-solid fa-arrow-up-right-from-square"
-                                                style="color: #3AC348;transform: rotate(180deg);font-size: 20px;"></i></span>
-                                        <div class="cs-till-right-content2">
-                                            <h5>Deposit</h5>
-                                            <span>13 Apr, 2022 at 3:30 PM</span>
-                                        </div>
-                                    </div>
-                                    <p class="cs-price">$20,129</p>
-                                </li>
-                                <li class="cs-till-right-content">
-                                    <div class="cs-till-right-content-1">
-                                        <span><i class="fa-solid fa-arrow-up-right-from-square"
-                                                style="color: #FF1F00;transform: rotate(270deg);font-size: 20px;"></i></span>
-                                        <div class="cs-till-right-content2">
-                                            <h5>Cash Withdrawal</h5>
-                                            <span>13 Apr, 2022 at 3:30 PM</span>
-                                        </div>
-                                    </div>
-                                    <p class="cs-price">$20,129</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="cs-till-bottom">
-                        <p style="color: #757D8A;">49 kayıttan 1 - 10 arası kayıtlar gösteriliyor.</p>
-                        <nav aria-label="Page navigation example">
-                            <ul class="pagination">
-                                <li class="page-item"><a class="page-link" href="#">İlk</a></li>
-                                <li class="page-item"><a class="page-link" href="#">Önceki</a></li>
-                                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                <li class="page-item"><a class="page-link" href="#">Sonraki</a></li>
-                                <li class="page-item"><a class="page-link" href="#">Son</a></li>
-                            </ul>
-                        </nav>
+                          </div>
+                        <span>Ödeme sayfasına yönlendirileceksiniz.</span>
                     </div>
                 </div>
             </div>
