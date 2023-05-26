@@ -26,7 +26,15 @@ class SiteController extends Controller
         $page   = SitePage::select('id', 'title', 'description','settings')->where( ['status' => 'publish', 'route' => $request['uri'] ] )->latest()->first();
         if( empty($page) ){
             abort('404');
+<<<<<<< HEAD
+<<<<<<< HEAD
         }
+=======
+        } 
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+        }
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
         $page_id        =  $page->id;
         $title          =  $page->title;

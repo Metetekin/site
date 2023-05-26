@@ -6221,31 +6221,64 @@ Header Search CSS
   display: flex;
   gap: 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-menu-button-link .cs-buttonlink1 {
   background-color: white;
   color: #757d8a;
   padding: 12px 16px 12px 16px;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-menu-button-link .cs-buttonlink2 {
   background-color: #f39200;
   color: #ffffff;
   padding: 12px 16px 12px 16px;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-main-titlebox {
   background-color: #f8f8f8 !important;
 }
 
+<<<<<<< HEAD
+=======
+.cs-main-titlebox {
+  background-color: #f8f8f8 !important;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-main-titlebox .cs-cardmain {
   display: flex;
   gap: 30px;
   padding: 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-main-titlebox .cs-cardmain .cs-card-left1 {
   flex: 1;
   background-color: white;
@@ -6253,45 +6286,94 @@ Header Search CSS
   display: flex;
   flex-direction: column;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-main-titlebox .cs-cardmain .cs-cardmain1 {
   display: flex;
   justify-content: space-between;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-main-titlebox .cs-cardmain .cs-cardmain1-link {
   background-color: #3ac348;
   color: white;
   padding: 6px 24px 6px 24px;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-main-titlebox .cs-cardmain .cs-cardmain1-title {
   color: #3ac348;
 }
 
+<<<<<<< HEAD
+=======
+.cs-main-titlebox .cs-cardmain .cs-cardmain1-title {
+  color: #3ac348;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-cardmain2-main {
   display: flex;
   justify-content: space-between;
   gap: 15px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-cardmain2-main .cs-cardmain2 {
   flex: 1;
 }
 
+<<<<<<< HEAD
+=======
+.cs-cardmain2-main .cs-cardmain2 {
+  flex: 1;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-cardmain2-main .cs-cardmain2 input {
   width: 100%;
   padding: 10px 16px 10px 16px;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-cardmain2-main .cs-cardmain2 select {
   width: 100%;
   padding: 10px 16px 10px 16px !important;
   border-radius: 8px;
   border-color: rgba(70, 95, 145, 0.1);
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-cardmain2-main .cs-cardmain2 .cs-cardmain2-label {
   color: #5a6474;
@@ -6301,18 +6383,40 @@ Header Search CSS
   color: #5a6474;
 }
 
+<<<<<<< HEAD
+=======
+.cs-cardmain2-main .cs-cardmain2 .cs-cardmain2-label {
+  color: #5a6474;
+}
+.cs-cardmain3-main .cs-cardmain3-label {
+  color: #5a6474;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-cardmain3-main textarea {
   border-color: rgba(70, 95, 145, 0.1);
   resize: none;
   width: 100%;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-main-titlebox .cs-cardmain .cs-card-right1 {
   flex: 1;
   background-color: white;
   border-radius: 10px;
   padding: 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-main-titlebox .cs-cardmain .cs-cardmain1 {
   display: flex;
@@ -6322,6 +6426,17 @@ Header Search CSS
   color: #ff1f00 !important;
 }
 
+<<<<<<< HEAD
+=======
+.cs-main-titlebox .cs-cardmain .cs-cardmain1 {
+  display: flex;
+}
+.cs-card-right1 .cs-cardmain1-title {
+  color: #ff1f00 !important;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-card-right1 .cs-cardmain1-link {
   background-color: #ff1f00 !important;
 }
@@ -6355,7 +6470,14 @@ Header Search CSS
   border-radius: 8px;
   padding: 6px 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-tabs-left-right-main .cs-right button i {
   color: #757d8a;
 }
@@ -6503,26 +6625,54 @@ Header Search CSS
   background-color: #fff;
   border-left: 5px solid #0779ff;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-tabled-detail-box {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-tabled-detail-box-left {
   display: flex;
   gap: 10px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-tabled-detail-box-left .cs-main-title {
   font-size: 20px;
   line-height: 28px;
   color: #1a1a1a;
   font-weight: 600;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-tabled-detail-box-left .cs-main-titlebox-item {
   font-size: 14px;
   line-height: 22px;
@@ -6530,7 +6680,14 @@ Header Search CSS
   padding: 5px 10px;
   font-weight: 500;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-tabled-detail-box-left .cs-main-titlebox-item.active {
   font-size: 14px;
   line-height: 22px;
@@ -6540,7 +6697,14 @@ Header Search CSS
   background: #f39200;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-tabled-detail-box-right .cs-button1 {
   border: 1px solid #757d8a !important;
   border-radius: 8px;
@@ -6549,7 +6713,14 @@ Header Search CSS
   background-color: transparent;
   text-decoration: none;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-tabled-detail-box-right .cs-button2 {
   border: 1px solid #4e73f8 !important;
   border-radius: 8px;
@@ -6558,16 +6729,34 @@ Header Search CSS
   color: white;
   text-decoration: none;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-icongroups {
   display: flex;
   gap: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #basicDataTable .cs-icongroups {
   display: flex;
   justify-content: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-t-detail-table .cs-table-tbody-1 tr:nth-child(odd) {
   border: none;
@@ -6577,12 +6766,27 @@ Header Search CSS
   min-height: 30vh;
 }
 
+<<<<<<< HEAD
+=======
+.cs-t-detail-table .cs-table-tbody-1 tr:nth-child(odd) {
+  border: none;
+}
+.cs-table-detail-body {
+  min-height: 30vh;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-t-detail-files-main {
   background-color: #f8f8f8;
   border: none;
   box-shadow: none;
   padding: 12px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-t-detail-files-main .cs-files-main-title {
   color: #1a1a1a;
@@ -6592,12 +6796,30 @@ Header Search CSS
   color: #1a1a1a !important;
 }
 
+<<<<<<< HEAD
+=======
+.cs-t-detail-files-main .cs-files-main-title {
+  color: #1a1a1a;
+}
+.cs-t-detail-files-main .cs-files-main-title i {
+  color: #1a1a1a !important;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-files-main .cs-files-main-text {
   background: rgba(117, 125, 138, 0.1);
   border-radius: 5px;
   color: #757d8a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-t-detail-files-list {
   display: flex;
   width: 100%;
@@ -6605,7 +6827,14 @@ Header Search CSS
   margin: 30px 0;
   flex-wrap: wrap;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-t-detail-files-list .cs-image-bg {
   background-color: #ededed;
   height: 45px;
@@ -6615,42 +6844,91 @@ Header Search CSS
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-t-detail-files-list .cs-filearea1 {
   display: flex;
   color: #1a1a1a;
   align-items: center;
   gap: 10px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-head-top-list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-head-top-list .cs-personname {
   font-size: 16px;
   color: #1a1a1a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .sidebar-footer {
   display: flex;
   flex-direction: column;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-bottom-menu-list {
   margin: -11px 0 35px 0;
   padding: 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-bottom-menu-list li {
   margin: 10px 0;
   list-style-type: none;
   position: relative;
   border-left: none;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-bottom-menu-list li a {
   display: block;
   font-size: 16px;
@@ -6660,7 +6938,14 @@ Header Search CSS
   -webkit-font-smoothing: antialiased;
   position: relative;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-publishedbutton {
   display: flex;
   flex-direction: row;
@@ -6674,7 +6959,14 @@ Header Search CSS
   border: none;
   border: 1px solid #f39200;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-publishedbutton:hover {
   display: flex;
   flex-direction: row;
@@ -6688,6 +6980,10 @@ Header Search CSS
   border: none;
   border: 1px solid #f39200;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 #basicDataTable {
   width: 100%;
@@ -6697,38 +6993,84 @@ Header Search CSS
   background-color: #f8f8f8 !important;
 }
 
+<<<<<<< HEAD
+=======
+#basicDataTable {
+  width: 100%;
+}
+.cs-income-mainbg {
+  background-color: #f8f8f8 !important;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-income-table-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-income-table-header .cs-top {
   display: flex;
   gap: 20px;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-income-table-header .cs-middle {
   display: flex;
   gap: 20px;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-income-table-header .cs-bottom a {
   color: #757d8a;
   border: 1px solid #757d8a;
   border-radius: 8px;
   padding: 10px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-income-table-header .cs-top h3 {
   color: #1a1a1a;
   font-size: 20px;
   line-height: 28px;
   margin: 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-income-table-header .cs-top a {
   background: #f39200;
   border-radius: 8px;
@@ -6736,11 +7078,22 @@ Header Search CSS
   color: white;
   font-size: 14px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #basicDataTable_info,
 #basicDataTable_paginate {
   display: none !important;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-income-title1 {
   color: #3ac348;
@@ -6758,25 +7111,63 @@ Header Search CSS
   width: 750px !important;
 }
 
+<<<<<<< HEAD
+=======
+.cs-income-title1 {
+  color: #3ac348;
+}
+.cs-income-title2 {
+  color: #ff1f00;
+}
+#kisiata .modal-content {
+  width: 650px !important;
+}
+#projeekle .modal-content {
+  width: 750px !important;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #teklifolustur .modal-content,
 #kisiata .modal-content,
 #projeekle .modal-content {
   padding: 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #teklifolustur .cs-teklifolustur-head,
 #kisiata .cs-kisiata-head,
 #projeekle .cs-projeekle-head {
   display: flex;
   justify-content: space-between;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #teklifolustur .cs-teklifolustur-head h5,
 #kisiata .cs-kisiata-head h5,
 #projeekle .cs-projeekle-head h5 {
   color: #3ac348;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #teklifolustur .cs-teklifolustur-head a,
 #kisiata .cs-kisiata-head a,
 #projeekle .cs-projeekle-head a {
@@ -6790,7 +7181,14 @@ Header Search CSS
   align-items: center;
   margin: 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #teklifolustur .cs-teklifolustur-body .cs-modal-top,
 #kisiata .cs-kisiata-body .cs-modal-top,
 #projeekle .cs-projeekle-body .cs-modal-top {
@@ -6799,7 +7197,14 @@ Header Search CSS
   gap: 20px;
   margin: 20px 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #teklifolustur .cs-modal-bottom,
 #teklifolustur .cs-modal-top label,
 #kisiata .cs-modal-bottom,
@@ -6808,7 +7213,14 @@ Header Search CSS
   color: #5a6474;
   padding-bottom: 5px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #teklifolustur .cs-modal-top input,
 #teklifolustur .cs-modal-top select,
 #teklifolustur .cs-modal-bottom textarea,
@@ -6824,31 +7236,66 @@ Header Search CSS
   color: #5a6474;
   resize: none;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #projeekle .cs-modal-top-content {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #teklifolustur .cs-modal-top .cs-left {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #teklifolustur .cs-modal-bottom,
 #kisiata .cs-modal-bottom {
   display: flex;
   flex-direction: column;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #teklifolustur .cs-modal-top .cs-right {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #teklifolustur .cs-teklifolustur-footer a,
 #kisiata .cs-teklifolustur-footer .cs-button1,
 #projeekle .cs-projeekle-footer .cs-button1 {
@@ -6862,7 +7309,14 @@ Header Search CSS
   color: #ffffff;
   margin-top: 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 #kisiata .cs-teklifolustur-footer .cs-button2,
 #projeekle .cs-projeekle-footer .cs-button2 {
   display: flex;
@@ -6876,6 +7330,10 @@ Header Search CSS
   margin-top: 5px;
   background-color: white;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 #teklifolustur .cs-teklifolustur-footer a:hover {
   text-decoration: none;
@@ -6885,6 +7343,17 @@ Header Search CSS
   background-color: white !important;
 }
 
+<<<<<<< HEAD
+=======
+#teklifolustur .cs-teklifolustur-footer a:hover {
+  text-decoration: none;
+}
+.cs-selectplan {
+  background-color: white !important;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-selectplan-main {
   display: flex;
   flex-direction: column;
@@ -6892,7 +7361,14 @@ Header Search CSS
   align-items: center;
   padding-top: 30px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-selectplan-main .cs-selectplan-title {
   font-weight: 700;
   font-size: 20px;
@@ -6900,7 +7376,14 @@ Header Search CSS
   text-align: center;
   color: #1a1a1a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-selectplan-main .cs-selectplan-desc1 {
   font-weight: 400;
   font-size: 16px;
@@ -6909,14 +7392,28 @@ Header Search CSS
   color: #757d8a;
   margin: 20px 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-selectplan-main .cs-selectarea {
   margin: 20px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-selectplan-main .cs-selectarea .nav-tabs {
   border: none;
   width: 250px;
@@ -6929,11 +7426,23 @@ Header Search CSS
   padding: 10px 16px;
   margin-bottom: 50px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-selectplan-main .cs-selectarea .nav-tabs .nav-item {
   flex: 1;
 }
 
+<<<<<<< HEAD
+=======
+.cs-selectplan-main .cs-selectarea .nav-tabs .nav-item {
+  flex: 1;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-selectplan-main .cs-selectarea .nav-tabs .nav-link.active {
   color: #ffffff;
   background-color: #f39200;
@@ -6941,7 +7450,14 @@ Header Search CSS
   border-radius: 99px;
   text-align: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-selectplan-main .cs-selectarea .nav-tabs .nav-link {
   color: #1a1a1a;
   border-radius: 99px;
@@ -6949,12 +7465,26 @@ Header Search CSS
   border: none;
   padding: 10px 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-plan-card {
   display: flex;
   gap: 30px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-plan-card .cs-card1-main {
   flex: 1;
   display: flex;
@@ -6965,7 +7495,14 @@ Header Search CSS
   padding: 40px 20px;
   border-radius: 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-plan-card .cs-card1-main .cs-card1-main-title {
   font-weight: 700;
   font-size: 26px;
@@ -6973,7 +7510,14 @@ Header Search CSS
   text-align: center;
   color: #1a1a1a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-plan-card .cs-card1-main .cs-card1-main-desc1 {
   font-weight: 400;
   font-size: 16px;
@@ -6981,7 +7525,14 @@ Header Search CSS
   color: #757d8a;
   text-align: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-plan-card .cs-card1-main .cs-card1-main-desc2 {
   font-weight: 400;
   font-size: 18px;
@@ -6993,7 +7544,14 @@ Header Search CSS
   align-items: center;
   gap: 10px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-plan-card .cs-card1-main .cs-card1-main-desc2 .cs-desc2-2 {
   font-weight: 700;
   font-size: 48px;
@@ -7001,12 +7559,26 @@ Header Search CSS
   text-align: center;
   color: #1a1a1a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-card1-main .cs-card1-main-list {
   list-style: none;
   padding: 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-card1-main .cs-card1-main-list li {
   font-weight: 400;
   font-size: 14px;
@@ -7014,7 +7586,14 @@ Header Search CSS
   color: #1a1a1a;
   margin: 12px 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-card1-main .cs-card1-main-button {
   display: flex;
   justify-content: center;
@@ -7038,7 +7617,14 @@ Header Search CSS
   background-color: #f39200;
   transform: scale(1.07);
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-card2-main .cs-card2-main-button {
   display: flex;
   justify-content: center;
@@ -7050,12 +7636,26 @@ Header Search CSS
   border-radius: 8px;
   color: #f39200;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-card2-main .cs-card2-main-list {
   list-style: none;
   padding: 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-card2-main .cs-card2-main-list li {
   font-weight: 400;
   font-size: 14px;
@@ -7063,7 +7663,14 @@ Header Search CSS
   color: #ffffff;
   margin: 12px 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-plan-card .cs-card2-main .cs-card2-main-title {
   font-weight: 700;
   font-size: 26px;
@@ -7071,7 +7678,14 @@ Header Search CSS
   text-align: center;
   color: #ffffff;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-plan-card .cs-card2-main .cs-card2-main-desc1 {
   font-weight: 400;
   font-size: 16px;
@@ -7079,7 +7693,14 @@ Header Search CSS
   color: #ffffff;
   text-align: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-plan-card .cs-card2-main .cs-card2-main-desc2 {
   font-weight: 400;
   font-size: 18px;
@@ -7091,7 +7712,14 @@ Header Search CSS
   align-items: center;
   gap: 10px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-plan-card .cs-card2-main .cs-card2-main-desc2 .cs-desc2-2 {
   font-weight: 700;
   font-size: 48px;
@@ -7099,11 +7727,23 @@ Header Search CSS
   text-align: center;
   color: #ffffff;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-till-main {
   display: flex;
 }
 
+<<<<<<< HEAD
+=======
+.cs-till-main {
+  display: flex;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-left {
   display: flex;
   flex-direction: column;
@@ -7112,13 +7752,27 @@ Header Search CSS
   padding: 0 20px;
   gap: 25px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-right {
   display: flex;
   flex-direction: column;
   width: 75%;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-left .cs-till-left-content {
   display: flex;
   justify-content: space-between;
@@ -7127,18 +7781,39 @@ Header Search CSS
   border-radius: 8px;
   padding: 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-left .cs-till-left-content h6 {
   color: #757d8a;
   font-weight: 400;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-left .cs-till-left-content p {
   color: #1a1a1a;
   font-weight: 700;
   font-size: 18px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-left .cs-till-button1 {
   color: #ffffff;
   font-weight: 400;
@@ -7150,7 +7825,14 @@ Header Search CSS
   background: #f39200;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-left .cs-till-left-content span {
   border-radius: 8px;
   background: #ffffff;
@@ -7160,34 +7842,76 @@ Header Search CSS
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-left .cs-till-left-content.active {
   background: #3ac348;
   border-radius: 12px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-left .cs-till-left-content.active h6 {
   color: white;
   font-weight: 400;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-left .cs-till-left-content.active p {
   color: white;
   font-weight: 700;
   font-size: 18px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-right-main {
   list-style: none;
   padding: 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-right-main .cs-till-right-content-1 {
   display: flex;
   gap: 15px;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-right-main .cs-till-right-content2 h5 {
   font-weight: 700;
   font-size: 16px;
@@ -7195,45 +7919,94 @@ Header Search CSS
   margin: 0;
   color: #1a1a1a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-right-main .cs-till-right-content2 span {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   color: #757d8a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-right-main .cs-till-right-content {
   display: flex;
   justify-content: space-between;
   padding: 15px;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-till-main .cs-till-right-main .cs-till-right-content:nth-child(odd) {
   background-color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+.cs-till-main .cs-till-right-main .cs-till-right-content:nth-child(odd) {
+  background-color: #fff;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-right-main .cs-till-right-content:nth-child(odd) p {
   color: #3ac348;
   font-weight: 700;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-till-main .cs-till-right-main .cs-till-right-content:nth-child(even) {
   background-color: #f8f8f8;
 }
 
+<<<<<<< HEAD
+=======
+.cs-till-main .cs-till-right-main .cs-till-right-content:nth-child(even) {
+  background-color: #f8f8f8;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-main .cs-till-right-main .cs-till-right-content:nth-child(even) p {
   color: #ff1f00;
   font-weight: 700;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-till-bottom {
   display: flex;
   justify-content: space-between;
   width: 100%;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-till-bottom .page-item .page-link {
   color: #757d8a;
@@ -7243,40 +8016,91 @@ Header Search CSS
   border: none !important;
 }
 
+<<<<<<< HEAD
+=======
+.cs-till-bottom .page-item .page-link {
+  color: #757d8a;
+}
+.cs-connections-tablebody {
+  border: none !important;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-connections-tablebody .cs-connection-cikarbutton {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 table.dataTable tbody td.sorting_1 {
   background-color: transparent;
 }
 
+<<<<<<< HEAD
+=======
+table.dataTable tbody td.sorting_1 {
+  background-color: transparent;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 table.dataTable thead .sorting_asc,
 table.dataTable thead .sorting_desc {
   background-color: transparent;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-connections-tablebody td,
 .cs-connections-tablebody th {
   border: none !important;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-bankaodemebilgileri .cs-duoinputgroup {
   display: flex;
   width: 100%;
   gap: 15px;
   margin-bottom: 15px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-bankaodemebilgileri .cs-inputcontent {
   border: 1px solid #e1e3e6;
   flex: 1;
   padding: 5px 16px;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-bankaodemebilgileri .cs-inputcontent-1 {
   flex: 2;
   display: flex;
@@ -7285,7 +8109,14 @@ table.dataTable thead .sorting_desc {
   padding: 5px 16px;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-bankaodemebilgileri .cs-inputcontent-1 textarea,
 .cs-bankaodemebilgileri .cs-inputcontent-1 textarea:focus-visible {
   border: none;
@@ -7293,33 +8124,73 @@ table.dataTable thead .sorting_desc {
   outline: none;
   margin-top: 10px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-bankaodemebilgileri .cs-inputcontent-2 {
   flex: 1;
 }
 
+<<<<<<< HEAD
+=======
+.cs-bankaodemebilgileri .cs-inputcontent-2 {
+  flex: 1;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-bankaodemebilgileri .cs-inputcontent input {
   border: none !important;
   width: 100%;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-bankaodemebilgileri .cs-inputcontent input:focus-visible {
   border: none !important;
   box-shadow: none;
   outline: none;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-odemebilgilerimain {
   max-width: 910px;
   width: 100%;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-bankaodemebilgileri {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-bankaodemebilgileri .cs-bankaodemebilgileri-button {
   align-self: flex-end;
   padding: 8px 16px;
@@ -7329,12 +8200,26 @@ table.dataTable thead .sorting_desc {
   border: none;
   cursor: pointer;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-general-settings-main {
   display: flex !important;
   justify-content: space-between;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-general-settings-main .cs-setting-left {
   flex: 1;
   display: flex;
@@ -7342,19 +8227,37 @@ table.dataTable thead .sorting_desc {
   align-items: center;
   justify-content: space-between;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-general-settings-main .cs-setting-right {
   flex: 2;
   display: flex;
   flex-direction: column;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-left .cs-setting-l-top {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-setting-l-top .cs-setting-image {
   margin-bottom: 15px;
@@ -7364,17 +8267,40 @@ table.dataTable thead .sorting_desc {
   border-radius: 50%;
 }
 
+<<<<<<< HEAD
+=======
+.cs-setting-l-top .cs-setting-image {
+  margin-bottom: 15px;
+}
+.cs-setting-l-top .cs-setting-image img {
+  border-radius: 50%;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-l-top .cs-setting-left-btn1 {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   color: #3ac348;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-setting-l-top .cs-textbox {
   margin: 8px 0;
 }
 
+<<<<<<< HEAD
+=======
+.cs-setting-l-top .cs-textbox {
+  margin: 8px 0;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-l-top .cs-textbox .cs-set-name {
   font-weight: 500;
   font-size: 18px;
@@ -7382,7 +8308,14 @@ table.dataTable thead .sorting_desc {
   color: #1a1a1a;
   margin: 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-l-top .cs-textbox .cs-set-username {
   font-weight: 500;
   font-size: 15px;
@@ -7390,7 +8323,14 @@ table.dataTable thead .sorting_desc {
   color: #757d8a;
   text-align: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-l-top .cs-setting-left-btn2 {
   font-weight: 500;
   font-size: 12px;
@@ -7401,14 +8341,28 @@ table.dataTable thead .sorting_desc {
   background-color: white;
   margin-bottom: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-l-top .cs-setting-left-item1 {
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
   color: #757d8a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-left .cs-setting-left-btn3 {
   padding: 8px 16px;
   background: #f8f8f8;
@@ -7416,24 +8370,52 @@ table.dataTable thead .sorting_desc {
   border-radius: 8px;
   color: #757d8a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-left .cs-setting-left-btn3:hover {
   text-decoration: none;
   color: #757d8a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-right .cs-setting-right-izinler {
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-bottom: 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-right .cs-setting-right-izinler .cs-right-izinler-right-1 {
   display: flex;
   gap: 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-right-title {
   font-weight: 500;
   font-size: 20px;
@@ -7441,21 +8423,42 @@ table.dataTable thead .sorting_desc {
   color: #1a1a1a;
   margin-bottom: 15px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-info-main {
   display: flex;
   justify-content: space-between;
   gap: 50px;
   margin-top: 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-info-main .cs-setting-info-btngroup {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   margin-top: 20px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-info-main .cs-setting-info-left {
   flex: 1;
   display: flex;
@@ -7465,7 +8468,14 @@ table.dataTable thead .sorting_desc {
   padding: 10px 16px;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-info-main .cs-setting-info-left select,
 .cs-setting-info-main .cs-setting-info-left input {
   border: 1px solid #e1e3e6;
@@ -7473,7 +8483,14 @@ table.dataTable thead .sorting_desc {
   padding: 4px 10px;
   margin-top: 5px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-info-main .cs-setting-info-btngroup .cs-setting-info-btn {
   box-sizing: border-box;
   display: flex;
@@ -7486,7 +8503,14 @@ table.dataTable thead .sorting_desc {
   border: 1px solid #e1e3e6;
   border-radius: 4px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-info-main .cs-setting-info-right {
   flex: 1;
   display: flex;
@@ -7496,7 +8520,14 @@ table.dataTable thead .sorting_desc {
   padding: 10px 16px;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-info-main .cs-setting-info-right .cs-inputcontent {
   border: 1px solid #e1e3e6;
   border-radius: 8px;
@@ -7506,11 +8537,23 @@ table.dataTable thead .sorting_desc {
   padding: 5px 16px;
   margin-bottom: 10px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 .cs-setting-info-main .cs-setting-info-right .cs-inputcontent label {
   margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+.cs-setting-info-main .cs-setting-info-right .cs-inputcontent label {
+  margin: 0;
+}
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-setting-info-main .cs-setting-info-right .cs-inputcontent select,
 .cs-setting-info-main .cs-setting-info-right .cs-inputcontent input,
 .cs-setting-info-main
@@ -7526,7 +8569,14 @@ table.dataTable thead .sorting_desc {
   outline: none;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-settinginfo-button {
   align-self: flex-end;
   padding: 8px 16px;
@@ -7537,23 +8587,51 @@ table.dataTable thead .sorting_desc {
   cursor: pointer;
   margin-top: 15px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-main {
   display: flex;
   justify-content: space-between;
   gap: 25px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-main .cs-management-left {
   flex: 1;
   background: white;
   border-radius: 20px;
   display: flex;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  justify-content: center;
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
   align-items: center;
   flex-direction: column;
   padding: 15px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-1 {
   display: flex;
   flex-direction: column;
@@ -7561,7 +8639,14 @@ table.dataTable thead .sorting_desc {
   position: relative;
   width: 100%;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-1 .cs-title {
   font-weight: 500;
   font-size: 18px;
@@ -7569,7 +8654,14 @@ table.dataTable thead .sorting_desc {
   color: #1a1a1a;
   margin: 8px 0 0 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-1 .cs-username {
   font-weight: 500;
   font-size: 14px;
@@ -7577,7 +8669,14 @@ table.dataTable thead .sorting_desc {
   color: #757d8a;
   margin: 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-1 .cs-connections {
   color: #757d8a;
   font-size: 12px;
@@ -7588,7 +8687,14 @@ table.dataTable thead .sorting_desc {
   border-radius: 8px;
   margin: 15px 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-2 {
   display: flex;
   flex-direction: column;
@@ -7597,13 +8703,27 @@ table.dataTable thead .sorting_desc {
   margin: 20px 0;
   padding: 0 15px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-2 .cs-left2-content {
   display: flex;
   width: 100%;
   justify-content: space-between;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-2 .cs-content-reason,
 .cs-management-left .cs-left-2 .cs-content-result2 {
   font-weight: 400;
@@ -7611,14 +8731,28 @@ table.dataTable thead .sorting_desc {
   line-height: 23px;
   color: #5a6474;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-2 .cs-content-result1 {
   font-weight: 500;
   font-size: 15px;
   line-height: 23px;
   color: #3ac348;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-1 .cs-left1-edit {
   position: absolute;
   right: 0;
@@ -7629,7 +8763,14 @@ table.dataTable thead .sorting_desc {
   text-align: right;
   color: #3ac348;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-3,
 .cs-management-left .cs-left-4,
 .cs-management-left .cs-left-5 {
@@ -7638,20 +8779,41 @@ table.dataTable thead .sorting_desc {
   width: 100%;
   margin: 20px 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-3 .cs-desc {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   color: #757d8a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-4 .cs-left4-content {
   display: flex;
   gap: 5px;
   flex-wrap: wrap;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-4 .cs-left4-content span {
   font-size: 12px;
   line-height: 20px;
@@ -7660,7 +8822,14 @@ table.dataTable thead .sorting_desc {
   border: 1px solid #e1e3e6;
   border-radius: 8px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-5 .cs-title {
   font-weight: 500;
   font-size: 15px;
@@ -7668,26 +8837,54 @@ table.dataTable thead .sorting_desc {
   color: #757d8a;
   margin: 0;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-5 .cs-desc {
   font-weight: 500;
   font-size: 12px;
   line-height: 20px;
   color: #757d8a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-glo-content {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-glo-reason {
   font-size: 18px;
   line-height: 26px;
   color: #1a1a1a;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .cs-management-left .cs-left-glo-result {
   font-weight: 500;
   font-size: 15px;
@@ -7698,6 +8895,10 @@ table.dataTable thead .sorting_desc {
 .cs-management-main .cs-management-right {
   flex: 2;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 
 #main #faq .card .card-header .btn-header-link {
   display: block;
@@ -9190,6 +10391,11 @@ table.dataTable thead .sorting_desc {
 }
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 /* melike end */
 
 /*# sourceMappingURL=style.css.map */
@@ -9198,13 +10404,27 @@ table.dataTable thead .sorting_desc {
   background-color: #f8f8f8;
   padding: 1.25rem;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .page-inner .wrapper {
   border-radius: 15px;
   background-color: #ffffff;
   padding: 2.5rem;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .page-inner .row {
   margin-left: 0;
   margin-right: 0;
@@ -9212,7 +10432,14 @@ table.dataTable thead .sorting_desc {
 
 .ph-list-filter-buttonbox {
   gap: 10px;
+<<<<<<< HEAD
+<<<<<<< HEAD
   flex-wrap: wrap;
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+  flex-wrap: wrap;
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 }
 
 .ph-list-filter-buttonbox button {
@@ -9237,7 +10464,14 @@ table.dataTable thead .sorting_desc {
   align-items: center;
   gap: 10px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .ph-filter-area .col.ph-added-button {
   flex-grow: 0;
 }
@@ -9304,7 +10538,14 @@ table.dataTable thead .sorting_desc {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .ph-card-header {
   display: flex;
   justify-content: space-between;
@@ -9336,12 +10577,26 @@ table.dataTable thead .sorting_desc {
   font-weight: 300;
   color: #a2a2a2;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .ph-card-pricebox p span {
   color: #707070;
   font-weight: 400;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> dd1f0857 (template dosyaları laravele uygun hale getirildi)
+=======
+
+>>>>>>> 417c3eae5680b484b4ccf7d894453100c41b4e93
 .ph-card-image {
   padding: 1.25rem;
 }
